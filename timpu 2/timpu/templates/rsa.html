@@ -1,0 +1,72 @@
+
+<html>
+  <head>
+    <title>ABOUT THE RSA CIPHER</title>
+    <<link rel="stylesheet" href="../static/last.css">
+  </head>
+
+    <style>
+body {
+  background-image: url('../static/images/cipher program.jpg');
+}
+</style>
+<body>
+  <h1 class="first">RSA CIPHER</h1>
+
+  <h1 class="second">Encrypting message</h1>
+
+  <p class="third">Alice gives her public key (n and e) to Bob and keeps her private key secret. Bob wants to send message M to Alice.<br><br>First he turns M into a number m smaller than n by using an agreed-upon reversible protocol known as a padding scheme. He then computes the ciphertext <b>c</b> corresponding to:</p>
+  <img class="firstimage"src="../static/images/formula4.png" alt="formula image">
+  <p class="third">This can be done quickly using the method of exponentiation by squaring. Bob then sends c to Alice</p>
+
+   <h1 class="second">Decrypting message</h1>
+
+   <p class="third">Alice can recover m from c  by using her private key d  in the following procedure:).<br><br>Given m , she can recover the original distinct prime numbers, applying the Chinese remainder theorem to these two congruences yields</p>
+   <img class="firstimage" src="../static/images/formula5.png" alt="formula">
+   <p class="one">Thus</p>
+   <img class="firstimage" src="../static/images/formula6.png" alt="formula">
+
+   <form method="POST">
+     <table>
+       <tr>
+         <td>
+           <h1>ENTER THE VALUE OF P</h1>
+         </td>
+         <td>
+           <input type="number" name="p" value="">
+         </td>
+       </tr>
+       <td>
+         <h1>ENTER THE VALUE OF Q</h1>
+       </td>
+
+       <td>
+         <input type="number" name="q" value="">
+       </td>
+
+       <tr >
+         <td><h1 class="secondtext">ENTER THE TEXT SIZE:</h1></td>
+         <td>
+         <h1><input type="number" name="msg" value=""></h1>
+         </td>
+       </tr>
+
+       <tr>
+         <td>
+           <input type="submit" name="submit" value="submit">
+         </td>
+       </tr>
+
+
+     </table>
+
+     </form>
+     <div>
+      <p>{{result}}</p>
+    </div>
+
+
+
+
+  </body>
+</html>

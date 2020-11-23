@@ -1,0 +1,357 @@
+body{
+  width:100%;
+  background-color:black;
+  background-size:100% 100%;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.trying:hover{
+  color:orange;
+}
+
+#pro{
+  width:100%;
+  background-color: black;
+}
+
+.navbar{
+  font-size:1rem;
+  margin-bottom:30px;
+}
+
+.nav-link{
+  margin-left:10px;
+  margin-right:10px;
+}
+.mainheading{
+  color:orange;
+}
+
+
+
+.secondh1{
+  color:white;
+}
+
+.firstunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.firstfirstunerline{
+  border-color: orange;
+  width:60%;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+
+
+.first{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom:40px;
+
+}
+
+
+#heading1{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.heading2{
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.seconddiv{
+  text-align: center;
+}
+
+.trying{
+  color: orange;
+}
+
+.firstcontainer{
+  padding:3% 15%;
+
+}
+hr{
+  border-style: dotted;
+  background-color:white;
+}
+
+.firstpara{
+  text-align: justify;
+  margin-left: 60px;;
+  margin-right: 60px;
+
+}
+
+
+
+.hipopimage{
+  margin-top:40px;
+  width:600px;
+  height:400px;
+}
+
+.hipoppart{
+  margin-top:100px;
+
+}
+
+.secondpara{
+  text-align:center;
+  margin-left: 0px;
+  margin-right: 60px;
+  line-height:2;
+  color: white;
+}
+
+.headinghipop{
+  color: orange;
+}
+.secondunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.thirdunderline{
+  border-color:orange;
+  margin-top:0px;
+  width:100%;
+}
+#bharathyapart{
+  margin-top:120px;
+}
+
+.fourthunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.fourtfourthunderline{
+  border-color: orange;
+  width:95%;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+
+.Bharatanatyamheading{
+  color: orange;
+  margin-top:1rem
+}
+
+.secondpara{
+  text-align:center;
+  line-height:2;
+
+  color: white;
+  margin-top:1rem;
+  margin-left: 20px;
+  margin-right: 120px;
+
+
+}
+
+.bharathyaimage{
+  margin-top:0px;
+  margin-right:0px;
+  width:600px;
+  height:400px;
+
+}
+
+.kuchipudiheading{
+  color: orange;
+  margin-top:1rem;
+}
+
+.fivithunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.fivithfivithunderline{
+  border-color: orange;
+  width:100%;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.kuchipoodiimage{
+
+  margin-right:0px;
+  margin-top:40px;
+  width:600px;
+  height:400px;
+}
+
+
+
+.thirdpara{
+  text-align: center;
+  line-height:2;
+  margin-left: 20px;
+  margin-right: 120px;
+  color: white;
+  margin-top: 1rem;
+
+
+}
+
+
+
+.kuchipodiarrange{
+  margin-top:60px;
+  margin-left:0px;
+}
+
+.sixunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.sixsixunderline{
+  border-color: orange;
+  width:95%;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.fourthpara{
+  text-align:center;
+  line-height:2;
+  color: white;
+  margin-left: 20px;
+  margin-right: 120px;
+  margin-top:1rem;
+
+
+}
+
+#kathakalipart{
+  margin-top:80px;
+}
+
+.fourthheading{
+  color:orange;
+  margin-top:1rem;
+}
+
+#applicationform{
+margin-top:80px;
+}
+
+.applicationimages{
+width:600px;
+
+}
+
+.applicationheading{
+  color:orange;
+}
+.applicationheading1{
+  color:orange;
+}
+
+.lastunderline{
+  border-color:orange;
+  background-color: orange;
+
+  height:15px;
+  width:30%;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.lastunderline1{
+  border-color:orange;
+  margin-top:0px;
+  width:100%;
+}
+
+.lastparagraph{
+  text-align:center;
+  line-height:2;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.lastarrangement{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.classofbutton{
+margin-left:270px;
+margin-right: auto;
+}
+
+.classof{
+margin-left:230px;
+margin-right: auto;
+}
+
+
+
+
+
+
+
+.kathakaliimage{
+margin-top:60px;
+width:390px;
+height:250px;
+margin-left:100px;
+margin-right:auto;
+}
+
+.cryptographyimage{
+  width:900px;
+  height:520px;
+}
+
+.latest1{
+  width:900px;
+  height:520px;
+}

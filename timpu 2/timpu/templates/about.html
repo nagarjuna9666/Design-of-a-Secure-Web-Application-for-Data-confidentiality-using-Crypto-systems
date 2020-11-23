@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AFFINE CIPHER</title>
+
+    <!-- This is adding of CSS FILES-->
+    <link rel="stylesheet" href="../static/join.css">
+
+    <style>
+body {
+  background-image: url('../static/images/brown.jpg');
+}
+</style>
+
+  </head>
+
+  <body>
+    <h1 class="first">AFFINE CIPHER</h1>
+<h4 class="second">In the affine cipher the letters of an alphabet of size m are first mapped to the integers in the range 0 … m − 1. It then uses modular arithmetic to transform the integer that each plaintext letter corresponds to into another integer that correspond to a ciphertext letter. The encryption function for a single letter is</h4>
+
+<img class="firstimage" src="../static/images/formula.png" alt="formula">
+
+<h4 class="second">where modulus m is the size of the alphabet and a and b are the keys of the cipher. The value a must be chosen such that a and m are coprime. The decryption function is</h4>
+
+<img class="firstimage" src="../static/images/formula1.png" alt="formula">
+
+
+<h1 class="firstheading">IMPLEMENTATION</h1>
+
+<form method="POST">
+  <table>
+    <tr>
+      <td><h1 class="zero">Enter the values of a & b (Key):</h1> </td>
+      <td>
+        <h1><input type="number" name="key" value=""></>h1>
+      </td>
+    </tr>
+    <tr >
+      <td><h1 class="firsttext">ENTER THE TEXT:</h1></td>
+      <td>
+      <h1><input type="text" name="msg" value=""></h1>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" name="encrypt" value="Encrypt">
+      </td>
+      <td>
+          <input type="submit" name="decrypt" value="Decrypt">
+      </td>
+    </tr>
+
+    <td></td>
+  </table>
+
+  </form>
+
+  <div>
+    <p>{{result}}</p>
+  </div>
+
+
+  </body>
+</html>

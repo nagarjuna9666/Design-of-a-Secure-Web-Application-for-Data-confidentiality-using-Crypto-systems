@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>PLAYFAIR CIPHER</title>
+
+<link rel="stylesheet" href="../static/second.css">
+
+<style>
+body {
+background-image: url('../static/images/img1.jpg');
+}
+</style>
+
+  </head>
+
+  <body>
+<h1 class="play">PLAYFAIR CIPHERS</h1>
+
+<h4 class="four"> The Playfair cipher was the first cipher to encrypt pairs of letters in cryptologic history. Wheatstone invented the cipher for secrecy in telegraphy, but it carries the name of his friend Lord Playfair, first Baron Playfair of St. Andrews, who promoted its use. The first recorded description of the Playfair cipher was in a document signed by Wheatstone on 26 March 1854.<br><br>During World War II, the Government of New Zealand used it for communication among New Zealand, the Chatham Islands, and the coastwatchers in the Pacific Islands. Coastwatchers established by Royal Australian Navy Intelligence also used this cipher.</h4>
+
+<form method="POST">
+  <table>
+    <tr>
+      <td>Enter the values of a & b (Key): </td>
+      <td>
+        <h1></h><input type="text" name="key" value=""><h1></h>
+      </td>
+    </tr>
+    <tr >
+      <td><h1 class="secondtext">ENTER THE TEXT:</h1></td>
+      <td>
+      <h1><input type="text" name="msg" value=""></h1>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" name="encrypt" value="Encrypt">
+      </td>
+      <td>
+        <input type="submit" name="decrypt" value="Decrypt">
+      </td>
+    </tr>
+  </table>
+
+  </form>
+  <div>
+    <p>{{result}}</p>
+  </div>
+  </body>
+</html>

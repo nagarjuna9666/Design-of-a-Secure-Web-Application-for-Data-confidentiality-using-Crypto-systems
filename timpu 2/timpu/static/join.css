@@ -1,0 +1,29 @@
+.first{
+  color: red;
+  text-align: center;
+}
+.name{
+  color:orange;
+}
+
+.second{
+  color: white;
+  font-size:20px;
+}
+
+.firstimage{
+  margin-left: 500px;
+  margin-right: auto;
+}
+
+.firsttext{
+}
+
+.firstheading{
+  text-align: center;
+  color:red;
+}
+
+.zero{
+  background-color: green;
+}

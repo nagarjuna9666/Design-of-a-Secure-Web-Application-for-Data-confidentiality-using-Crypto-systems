@@ -1,0 +1,29 @@
+.first{
+  margin-top:0px;
+  text-align: center;
+  color: red;
+  font-size:55px;
+}
+
+.second{
+color:orange;
+
+}
+
+.third{
+  color: white;
+}
+
+.firstimage{
+margin-left: 500px;
+margin-right: auto;
+}
+
+.secondtext{
+  background-color:blue;
+}
+
+.one{
+  color: white;
+  margin-left:400px;
+}
